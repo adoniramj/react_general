@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import './styles.scss'
 
 class TestComponent extends React.Component {
   render() {
     return (
-      <div>Test</div>
+      <div>
+        <p>Paragraph one</p>
+        <p>Paragraph two</p>
+      </div>
     )
   }
 }
